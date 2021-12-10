@@ -1,0 +1,449 @@
+body{
+	color:  #fff;
+	background-color: #61122f ;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/*................Navbar............*/
+#header-nav
+{
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+}
+#navbar-header
+{
+	display: flex;
+}
+.navbar-collapse
+{
+	/*display: none;*/
+	vertical-align: sub;
+	flex-grow: 0;
+	/*padding-bottom: 70px;*/
+}
+
+#logo-img
+{
+	width: 135px;
+	height: 135px;
+	margin: 0px 45px 0px 50px;
+
+}
+.icon{
+width: 20px;
+height: 20px;
+}
+.navbar-brand
+{
+	padding-top: 5px;
+}
+.navbar-brand h1
+{
+	display: inline block;
+	font-family: 'Lora', serif;
+	color: #557c3e;
+	font-size: 1.25em !important;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+.navbar-toggler
+{
+float: right;
+}
+.navbar-brand a:hover, .navbar-brand a:focus
+{
+	text-decoration: none;
+}
+.navbar-brand p
+{
+color: #000;
+text-transform: uppercase;
+font-size: .7em;
+margin-top: 10px;
+margin-bottom: 16px;
+}
+.navbar-brand p span
+{
+	vertical-align: middle;
+}
+
+div .navbar-nav
+{
+	margin-left: auto;
+	margin-right: 0px;
+}
+#nav-list
+{
+	margin-top: 10px;
+
+}
+#nav-list a
+{
+	color:  #951C49;
+	text-align: center;
+}
+#nav-list a:hover
+{
+	background: #E7E7E7;
+}
+#nav-list a span
+{
+	font-size: 1.3em;
+}
+#phone{
+	margin-top: 5px;
+}
+#phone a{/* Phone Number*/ 
+	text-align: right;
+	padding-bottom: 0;
+	padding-top: 0;
+}
+#phone div{  We Deliver 
+	color: #557c3e;
+	text-align: right;
+	padding-right: 15px;
+}
+.navbar-toggler{
+border:  2px solid #61122f !important;
+}
+.navbar-toggler-icon .custom-toggler
+{
+
+	border-color: rgb(97, 18, 47)
+}
+
+.active > a,
+
+.active > a:hover,
+
+.active > a:focus {
+
+    color: #00B309;
+
+    background-color: #ffffff;
+
+}
+/*............End Navbar.................*/
+
+/*........Footer.............*/
+.panel-footer {
+	margin-top: 30px;
+	padding-top: :35px;
+	padding-bottom: 30px;
+	background-color: #222;
+	border-top: 0;
+
+}
+.panel-footer div.row{
+	margin-bottom: 35px;
+}
+#hours,#address{
+	line-height: 2;
+}
+#hours > span,#address > span{
+	font-size: 1.3em;
+}
+#address p{
+	color: #557c3e;
+	font-size: .8em;
+	line-height: 1.8;
+}
+#testimonials{
+	font-style: italic;
+}
+#testimonials p:nth-child(2){
+	margin-top: 25px;
+}
+.row{
+margin-left: 2%;
+margin-right: 2%;
+}
+.per
+{
+	margin-top: 2%;
+}
+/*.........End Footer.........*/
+
+/*...........Home Page..............*/
+.jumbotron{
+	box-shadow: 0 0 50px #3F0C1F;
+	border: 2px solid #3F0C1F;
+}
+#menu-tile,#specials-tile,#map-tile{
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+}
+#menu-tile:hover, #specials-tile:hover,#map-tile:hover{
+	box-shadow:  0 1px 5px 1px #cccccc;
+}
+#menu-tile{
+	background: url('food/menu.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#specials-tile{
+	background: url('food/specials.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#menu-tile span, #specials-tile span, #map-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1em;
+	text-transform: uppercase;
+	background-color: #000;
+	color:  #fff;
+	opacity: .8;
+}
+/*........ End Home Page...........*/
+
+
+
+/*....Menu Categories...........*/
+.tile1{
+	width: 200px; 
+	height: 200px;
+	object-fit: cover;
+	object-position: 60%;
+}
+.category-tile{
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto 15px;
+}
+.category-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
+.category-tile:hover{
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-categories-title+div{
+	margin-bottom: 50px;
+}
+
+/*............End Menu Categories Page.................*/
+
+/*.............Single Category Page....................*/
+.menu-item-tile{
+	margin-bottom: 25px;
+}
+.menu-item-tile hr{
+	width: 80%;
+}
+.menu-item-tile .menu-item-price{
+	font-size: 1.1em;
+	text-align: right;
+	margin-top: -15px;
+	margin-right: -15px;
+}
+.menu-item-tile .menu-item-price span{
+	font-size: .6em;
+}
+.menu-item-photo{
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+	padding: 0;
+	margin-right: -15px;
+	margin-left: auto;
+	margin-bottom: 20px;
+	max-width: 250px;
+}
+.menu-item-photo div{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 80px;
+	background-color: #557C3E;
+	text-align: center;
+}
+.menu-item-description{
+	padding-right: 30px;
+}
+h3.menu-item-title{
+	margin: 0 0 10px;
+}
+.menu-item-details{
+	font-size: .9em;
+	font-style: italic;
+}
+
+
+/*.................Large Screen................*/
+@media(min-width: 1200px){
+.jumbotron{
+	background: url('home/jumbotron.jpg') no-repeat;
+	height: 800px;
+	box-shadow: 0 0 50px #3F0C1F;
+	border: 2px solid #3F0C1F;
+	background-size: cover;
+}
+}
+/*...............End Large....................*/
+
+
+/*..........Medium screen...............*/
+@media(min-width: 992px) and (max-width:  1199px)
+{
+#nav-list a span
+{
+	font-size: 1em;
+}	
+.jumbotron{
+	background: url('home/jumbotron992.jpg') no-repeat center;
+	height: 661px;
+	box-shadow: 0 0 50px #3F0C1F;
+	border: 2px solid #3F0C1F;
+	background-size: cover;
+}
+}
+/*.................End Medium..................*/
+
+
+/*.......Smaller than medium.............*/
+@media (min-width: 768px) and (max-width: 991px){
+#logo-img 
+{
+    width: 100px;
+	height: 100px;
+}
+#nav-list a span
+{
+	font-size: 1.1em;
+}
+.navbar-collapse
+{
+	padding-bottom: 50px;
+}
+
+#call-btn > a {
+        font-size: 1.25em;
+        display: block;
+        margin: 3% 5% 1% 5%;
+        padding: 1%;
+        border: 2px solid #fff;
+        background-color: #f6b319;
+        color: #951c49;
+      }
+      #call-btn > a:hover{
+          background-color:#e7e7e7;
+          text-decoration: none;
+      }
+    #xs-deliver{
+          text-align: right;
+          color: cornsilk;
+          padding-bottom: 1%;
+      }
+      .jumbotron{
+	background: url('home/jumbotron768.jpg') no-repeat center;
+	height: 511px;
+	box-shadow: 0 0 50px #3F0C1F;
+	border: 2px solid #3F0C1F;
+	background-size: cover;
+}
+}
+/*.........End S Medium............*/
+
+
+/*........Small........*/
+@media (max-width: 767px)
+{
+	#nav-list a span
+{
+	font-size: 1em;
+}
+ #call-btn > a {
+        font-size: 1.25em;
+        display: block;
+        margin: 3% 5% 1% 5%;
+        padding: 1%;
+        border: 2px solid #fff;
+        background-color: #f6b319;
+        color: #951c49;
+      }
+      #call-btn > a:hover{
+          background-color:#e7e7e7;
+          text-decoration: none;
+      }
+    #xs-deliver{
+          text-align: right;
+          color: cornsilk;
+      }
+      .panel-footer section{
+      	margin-bottom: 30px;
+      	text-align: center;
+      }
+      .panel-footer section:nth-child(3){
+      	margin-bottom: 0;
+      }
+      .panel-footer section hr{
+      	width: 50%;
+      	margin-left: auto;
+      	margin-right: auto;
+      }
+      .jumbotron{
+      	background-size: cover;
+      	padding: 0;
+      	box-shadow: 0 0 50px #3F0C1F;
+      	border: 2px solid #3F0C1F;
+      }
+     /* #menu-tile,#specials-tile{
+      	width:  360px;
+      	margin: 0 auto 15px;
+      }*/
+      .menu-item-photo{
+      	margin-right: auto;
+      }
+      .menu-item-tile .menu-item-price{
+      	text-align: center;
+      }
+      .menu-item-description{
+      	text-align: center;
+      }
+}
+/*.........End Small.........*/
+
+/*...........Super Extra Small.............*/
+@media(max-width: 479px)
+{
+	.navbar-brand h1{
+		padding-top: 5px;
+		font-size: 6vw;
+	}
+
+	#menu-tile, #specials-tile{
+		width: 280px;
+		margin: 0 auto 15px;
+	}
+	.col-xxs-12{
+		position: relative;
+		min-height: 1px;
+		padding-right: 15px;
+		padding-left: 15px;
+		width: 100%;
+	}
+}
